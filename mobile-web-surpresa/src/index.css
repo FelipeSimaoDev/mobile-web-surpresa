@@ -1,0 +1,82 @@
+/* src/index.css */
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  /* width: 100%; */ /* Remova width e height daqui, eles pertencem a body/html/#root */
+  /* height: 100%; */
+
+  color-scheme: light dark;
+  /* A cor do texto pode ser definida aqui como um padrão global, se desejar */
+  color: rgba(255, 255, 255, 0.87); /* Padrão para tema escuro */
+  /* background-color: #242424; */ /* ← REMOVA ESTA LINHA */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2; /* Estilo base para hover em 'a' */
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; /* Ótimo para apps de tela cheia, previne scrollbars */
+  /* Não defina background-color aqui se você quer que o FullScreenSlide comande totalmente */
+}
+
+#root { /* Esta é a definição correta para #root para tela cheia */
+  width: 100%;
+  height: 100%;
+  padding: 0; /* Garante que não haja padding */
+  margin: 0;  /* Garante que não haja margin */
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a; /* Padrão tema escuro */
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547; /* Cor do texto para tema claro */
+    /* background-color: #ffffff; */ /* ← REMOVA ESTA LINHA */
+  }
+  /* Os estilos para a:hover e button devem estar fora do :root, mas dentro do @media se forem específicos para o tema claro */
+  a:hover {
+    color: #747bff; /* Hover específico para tema claro */
+  }
+  button {
+    background-color: #f9f9f9; /* Botão específico para tema claro */
+  }
+}
