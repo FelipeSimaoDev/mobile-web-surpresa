@@ -13,7 +13,7 @@ const HomeSlide: React.FC = () => {
   return (
     <FullScreenSlide onScreenClick={handleNavigateToSlide1} backgroundColor="#803d71">
       <> {/* Usamos React.Fragment (<> </>) para agrupar múltiplos elementos filhos */}
-        <h2>Toque na tela para abrir o seu presente!</h2>
+        <h2>Abra o seu presente!</h2>
         <img
           src={"/src/assets/presente.png"} // Confirme se este caminho está correto a partir da pasta public ou se é um import
           alt="Presente"
