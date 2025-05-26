@@ -12,7 +12,7 @@ const Slide2: React.FC = () => {
   };
 
   return (
-    <FullScreenSlide backgroundColor="#add8e6">
+    <FullScreenSlide backgroundColor="#803d71">
       <>
         <h2>Slide 2</h2>
         <p style={{ fontSize: '1.2em', margin: '20px' }}>

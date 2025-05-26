@@ -1,21 +1,20 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import HomeSlide from './pages/HomeSlide';
-import Slide1 from './pages/Slide1';
-import Slide2 from './pages/Slide2';
-
+import Primeiro from './pages/Primeiro';
+import Segundo from './pages/Segundo';
+import Terceiro from './pages/Terceiro';
+import Quarto from './pages/Quarto';
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <Router>
       <Routes>
         <Route path="/" element={<HomeSlide />} />
-        <Route path="/slide1" element={<Slide1 />} />
-        <Route path="/slide2" element={<Slide2 />} />
+        <Route path="/primeiro" element={<Primeiro />} />
+        <Route path="/segundo" element={<Segundo />} />
+        <Route path="/terceiro" element={<Terceiro />} />
+        <Route path="/quarto" element={<Quarto />} />
       </Routes>
     </Router>
   )
