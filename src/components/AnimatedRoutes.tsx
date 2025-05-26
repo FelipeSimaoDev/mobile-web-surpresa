@@ -6,6 +6,13 @@ import Primeiro from "../pages/Primeiro";
 import Segundo from "../pages/Segundo";
 import Terceiro from "../pages/Terceiro";
 import Quarto from "../pages/Quarto";
+import Quinto from "../pages/Quinto";
+import Sexto from "../pages/Sexto";
+import Setimo from "../pages/Setimo";
+import Oitavo from "../pages/Oitavo";
+import Nono from "../pages/Nono";
+import Decimo from "../pages/Decimo";
+import DecimoPrimeiro from "../pages/DecimoPrimeiro";
 
 const pageVariants = {
   initial: { opacity: 0, y: 20 },
@@ -97,6 +104,111 @@ const AnimatedRoutes: React.FC = () => {
               style={{ height: "100%" }}
             >
               <Quarto />
+            </motion.div>
+          }
+        />
+        <Route
+          path="/quinto"
+          element={
+            <motion.div
+              initial="initial"
+              animate="in"
+              exit="out"
+              variants={pageVariants}
+              transition={pageTransition}
+              style={{ height: "100%" }}
+            >
+              <Quinto />
+            </motion.div>
+          }
+        />
+        <Route
+          path="/sexto"
+          element={
+            <motion.div
+              initial="initial"
+              animate="in"
+              exit="out"
+              variants={pageVariants}
+              transition={pageTransition}
+              style={{ height: "100%" }}
+            >
+              <Sexto />
+            </motion.div>
+          }
+        />
+        <Route
+          path="/setimo"
+          element={
+            <motion.div
+              initial="initial"
+              animate="in"
+              exit="out"
+              variants={pageVariants}
+              transition={pageTransition}
+              style={{ height: "100%" }}
+            >
+              <Setimo />
+            </motion.div>
+          }
+        />
+        <Route
+          path="/oitavo"
+          element={
+            <motion.div
+              initial="initial"
+              animate="in"
+              exit="out"
+              variants={pageVariants}
+              transition={pageTransition}
+              style={{ height: "100%" }}
+            >
+              <Oitavo />
+            </motion.div>
+          }
+        />
+        <Route
+          path="/nono"
+          element={
+            <motion.div
+              initial="initial"
+              animate="in"
+              exit="out"
+              variants={pageVariants}
+              transition={pageTransition}
+              style={{ height: "100%" }}
+            >
+              <Nono />
+            </motion.div>
+          }
+        />
+        <Route
+          path="/decimo"
+          element={
+            <motion.div
+              initial="initial"
+              animate="in"
+              exit="out"
+              variants={pageVariants}
+              transition={pageTransition}
+              style={{ height: "100%" }}
+            >
+              <Decimo />
+            </motion.div>
+          }
+        />
+        <Route
+          path="/decimoprimeiro"
+          element={
+            <motion.div
+              initial="initial"
+              animate="in"
+              exit="out"
+              variants={pageVariants}
+              transition={pageTransition}
+              style={{ height: "100%" }}
+            >
+              <DecimoPrimeiro />
             </motion.div>
           }
         />
