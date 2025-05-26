@@ -1,21 +1,11 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router } from 'react-router-dom'
+import AnimatedRoutes from './components/AnimatedRoutes'
 import './App.css'
-import HomeSlide from './pages/HomeSlide';
-import Primeiro from './pages/Primeiro';
-import Segundo from './pages/Segundo';
-import Terceiro from './pages/Terceiro';
-import Quarto from './pages/Quarto';
-function App() {
 
+function App() {
   return (
     <Router>
-      <Routes>
-        <Route path="/" element={<HomeSlide />} />
-        <Route path="/primeiro" element={<Primeiro />} />
-        <Route path="/segundo" element={<Segundo />} />
-        <Route path="/terceiro" element={<Terceiro />} />
-        <Route path="/quarto" element={<Quarto />} />
-      </Routes>
+      <AnimatedRoutes />
     </Router>
   )
 }
