@@ -22,7 +22,7 @@ const HomeSlide: React.FC = () => {
           {"Abra o seu presente!"}
         </text>
         <img
-          src={"/src/assets/presente.png"} // Confirme se este caminho está correto a partir da pasta public ou se é um import
+          src={"/assets/presente.png"} // Corrigido para funcionar no Vercel
           alt="Presente"
           style={{
             width: "auto",

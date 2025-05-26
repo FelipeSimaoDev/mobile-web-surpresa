@@ -21,7 +21,7 @@ const Segundo: React.FC = () => {
           {"(de outros carnavais...)"}
         </text>
         <img
-          src={"/src/assets/IMG-20250526-WA0011.jpg"} // Confirme se este caminho está correto a partir da pasta public ou se é um import
+          src={"/assets/IMG-20250526-WA0011.jpg"} // Corrigido para funcionar no Vercel
           alt="Presente"
           style={{
             width: "auto",

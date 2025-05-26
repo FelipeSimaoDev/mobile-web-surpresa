@@ -17,7 +17,7 @@ const Quinto: React.FC = () => {
           {"Nossas aventuras são as melhores!"}
         </text>
         <img
-          src={"/src/assets/IMG-20250526-WA0008.jpg"}
+          src={"/assets/IMG-20250526-WA0008.jpg"}
           alt="Presente"
           style={{
             width: "auto",

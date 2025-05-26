@@ -11,7 +11,7 @@ const DecimoPrimeiro: React.FC = () => {
         Animada para celebrar mais uma volta ao sol sua ao seu lado
         </p>
         <img
-          src={"/src/assets/IMG-20250526-WA0012.jpg"}
+          src={"/assets/IMG-20250526-WA0012.jpg"}
           alt="Comemorar"
           style={{
             width: "auto",

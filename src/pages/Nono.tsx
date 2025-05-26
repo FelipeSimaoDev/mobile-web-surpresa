@@ -17,7 +17,7 @@ const Nono: React.FC = () => {
           {"Sapucaí-Mirim!"}
         </text>
         <img
-          src={"/src/assets/IMG-20250526-WA0015.jpg"}
+          src={"/assets/IMG-20250526-WA0015.jpg"}
           alt="Presente"
           style={{
             width: "auto",

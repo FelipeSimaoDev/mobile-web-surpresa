@@ -18,7 +18,7 @@ const Quarto: React.FC = () => {
           {"Eu amo você, e amo viver a vida com você"}
         </text>
         <img
-          src={"/src/assets/IMG-20250526-WA0003.jpg"} // Confirme se este caminho está correto a partir da pasta public ou se é um import
+          src={"/assets/IMG-20250526-WA0003.jpg"} // Corrigido para funcionar no Vercel
           alt="Presente"
           style={{
             width: "auto",

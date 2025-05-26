@@ -17,7 +17,7 @@ const Setimo: React.FC = () => {
           {"Então arruma suas malas, dia 6 partimos!"}
         </text>
         <img
-          src={"/src/assets/IMG-20250526-WA0002.jpg"}
+          src={"/assets/IMG-20250526-WA0002.jpg"}
           alt="Presente"
           style={{
             width: "auto",

@@ -21,7 +21,7 @@ const Oitavo: React.FC = () => {
           {"Quer saber mais sobre o destino? "}
         </text>
         <img
-          src={"/src/assets/IMG-20250526-WA0009.jpg"}
+          src={"/assets/IMG-20250526-WA0009.jpg"}
           alt="Final" 
           style={{
             width: "auto",

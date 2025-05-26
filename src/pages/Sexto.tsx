@@ -17,7 +17,7 @@ const Sexto: React.FC = () => {
           {"Topa viver mais uma aventura juntas? "}
         </text>
         <img
-          src={"/src/assets/IMG-20250526-WA0009.jpg"}
+          src={"/assets/IMG-20250526-WA0009.jpg"}
           alt="Final" 
           style={{
             width: "auto",

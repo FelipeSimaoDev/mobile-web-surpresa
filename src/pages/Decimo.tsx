@@ -17,7 +17,7 @@ const Decimo: React.FC = () => {
           {"Eai? Topa?"}
         </text>
         <img
-          src={"/src/assets/IMG-20250526-WA0013.jpg"}
+          src={"/assets/IMG-20250526-WA0013.jpg"}
           alt="Presente"
           style={{
             width: "auto",
